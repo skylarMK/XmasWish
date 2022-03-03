@@ -23,7 +23,10 @@ h1,.hidden{display: none;}
   filter: drop-shadow(0px 0px 2px #2486a0);
 }
 .logo img{width: 100%;}
-img{width: 100%;}
+img{
+  width: 100%;
+  image-rendering: -webkit-optimize-contrast;
+}
 a{text-decoration: none;}
 .wordsArea{
     position: absolute;
