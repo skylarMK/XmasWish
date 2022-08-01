@@ -412,7 +412,7 @@ div.noticeBox::-webkit-scrollbar-thumb {
   background: url(../images/bg6.png) no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 5em 1em;
+  padding: 1em;
   color: #fff;
   border-radius: 20px;
   box-shadow: 0 0 20px #aaa9a9;
@@ -457,6 +457,7 @@ textarea{
 .formSection{
   position: relative;
   width: 30%;
+  height: 80vh;
 }
 
 /*event2*/
